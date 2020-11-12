@@ -1,0 +1,93 @@
+<form>
+  <h1>Pizza a domicilio</h1>
+    <fieldset>
+    <legend>Nombre completo</legend>
+    <p>
+      <label for="nombre">Nombre y apellidos:</label>
+      <input type="text" name="nombre" id="nombre" value="" placeholder="Nombre completo...">
+    </p>
+  </fieldset>
+
+
+    <fieldset>
+    <legend>Tipos de masa</legend>
+    <p>
+      <input type="radio" name="size1" id="size_1" value="small">
+      <label for="size_1">Fina</label>
+    </p>
+    <p>
+      <input type="radio" name="size1" id="size_1" value="medium">
+      <label for="size_1">Gorda</label>
+    </p>
+  </fieldset>
+
+    <fieldset>
+    <legend>Salsa</legend>
+        <p>
+        <input type="radio" name="size2" id="size_3" value="medium">
+            <label>Tomate</label>
+        </p>
+    <p>
+        <input type="radio" name="size2" id="size_4" value="medium">
+        <label>BBQ</label></p>
+    <p>
+        <input type="radio" name="size2" id="size_5" value="medium"><label>Carbonara</label></p>
+    </fieldset>
+
+    <fieldset>
+    <legend> Queso
+    <p> <input type="radio" name="size3">
+        <label>Si</label>
+    </p>
+       <p> <input type="radio" name="size3">
+        <label>No</label></p>
+    </legend>
+    </fieldset>
+
+    <fieldset>
+    <legend>Ingredientes a elegir:
+        <p> <input type="checkbox">
+        <label>Champi</label>
+        </p>
+        <p> <input type="checkbox">
+        <label>Piña</label>
+        </p>
+    <p><input type="checkbox"><label>Jamón Ibérico</label></p>
+        <p><input type="checkbox"><label>Olivas</label></p>
+    <p><input type="checkbox"><label>Bacon</label></p>
+    <p><input type="checkbox"><label>Cebolla</label></p>
+        <p><input type="checkbox"><label>Queso extra</label></p>
+    <p><input type="checkbox"> <label>Pollo troceado</label></p>
+        </legend>
+    </fieldset>
+
+
+    <fieldset>
+    <legend>Tamaño de la pizza</legend>
+    <p><input type="radio" name="size4"><label>Pequeña</label></p>
+
+        <p><input type="radio" name="size4"><label>Mediana</label></p>
+
+        <p><input type="radio" name="size4"><label>Familiar</label></p>
+    </fieldset>
+    <h2>Datos de pago:</h2>
+    <fieldset><legend>Pago:</legend>
+    <p>
+    <label>Número de cuenta:</label><input type="text" name="nombre" id="nombre" value="" placeholder="Número de cuenta...">
+    </p>
+    <p><label>Fecha de caducidad:</label><input type="text" name="nombre" id="nombre" value="" placeholder="Fecha de caducidad..."></p>
+    <p><label>Código de seguridad:</label><input type="text" name="nombre" id="nombre" value="" placeholder="Código de seguridad..."></p>
+    </fieldset>
+    <fieldset>
+    <legend>Datos de entrega</legend>
+    <p><label>Dirección completa:</label><input type="text" name="nombre" id="nombre" value="" placeholder="Dirección completa..."></p>
+    <p><label>Textarea con observariones:</label><input type="text" name="nombre" id="nombre" value="" placeholder="Observaciones..."></p>
+    </fieldset>
+
+
+    <fieldset>
+    <legend>Finalizar</legend>
+    <input type="submit" name="enviar" value="Hacer pedido">
+      <input type="reset" name="cancelar" value="Borrar pedido">
+  </fieldset>
+</form>
