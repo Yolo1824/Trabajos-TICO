@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+
+  </head>
+  <body>
+    <table>
+    <caption>Horario curso 2020 2ºBCC 2</caption>
+    <thead>
+        <tr>
+            <th>Horas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>8:15-9:10</td>
+            <td>CTM</td>
+            <td>Historia</td>
+            <td>Tecno</td>
+            <td>Química</td>
+            <td>Inglés</td>
+        </tr>
+        <tr>
+            <td>9:10-10:05</td>
+            <td>Inglés</td>
+            <td>Inglés</td>
+            <td>Historia</td>
+            <td>Lengua</td>
+            <td>Historia</td>
+
+        </tr>
+        <tr>
+
+            <td>10:05-11:00</td>
+            <td>Lengua</td>
+            <td>Lengua</td>
+            <td>Química</td>
+            <td>Historia</td>
+            <td>Matemáticas</td>
+        </tr>
+    <tr>
+
+        <td>11:00-11:30</td>
+        <td colspan="5">RECREO</td>
+    </tr>
+    <tr>
+        <td>11:30-12:25</td>
+        <td>TICO</td>
+        <td>TICO</td>
+        <td>Inglés</td>
+        <td>Biología</td>
+        <td>Lengua</td>
+        </tr>
+        <tr>
+        <td>12:25-13:20</td>
+            <td>Biología</td>
+            <td>Química</td>
+            <td>Biología</td>
+            <td>CTM</td>
+            <td>Biología</td>
+        </tr>
+
+        <tr>
+
+        <td>13:20-14:15</td>
+        <td>Matemáticas</td>
+        <td>Tecno</td>
+        <td>Matemáticas</td>
+        <td>Inglés</td>
+        <td>Química</td>
+
+        </tr>
+        <tr>
+        <td>14:15-15:00</td>
+        <td></td>
+            <td></td>
+            <td></td>
+            <td>Matemáticas</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
